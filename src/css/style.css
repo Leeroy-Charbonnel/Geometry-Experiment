@@ -1,0 +1,45 @@
+.dg.ac {
+    z-index: 2 !important;
+}
+
+canvas {
+    position: absolute;
+}
+
+#canvasCircle {
+    z-index: 1;
+}
+
+#canvasLine {
+    z-index: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #242424;
+}
+
+.saveImage {
+    z-index: 10;
+    width: 216px;
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+    border-top-left-radius: 11px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: -webkit-inline-box;
+}
+
+.saveImage i {
+    position: absolute;
+    right: 12px;
+    padding: 10px;
+    top: 0;
+}
+
+.saveImage i:hover {
+    cursor: pointer;
+}
